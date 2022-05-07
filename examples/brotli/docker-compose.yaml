@@ -9,7 +9,7 @@ services:
     deploy:
       replicas: 0
 
-  envoy-stats:
+  brotli-envoy:
     build:
       context: .
       dockerfile: Dockerfile-brotli
